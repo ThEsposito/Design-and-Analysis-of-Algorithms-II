@@ -3,6 +3,9 @@ project(Design_and_Analysis_of_Algorithms C)
 
 set(CMAKE_C_STANDARD 11)
 
+# Recursion
+add_executable(ex1_gcd_recursive recursion/ex1_gcd_recursive.c)
+
 # Backtracking
 add_executable(ex1_binary_sequences backtracking/ex1_binary_sequences.c)
 add_executable(ex2_permutation backtracking/ex2_permutation.c)
@@ -14,4 +17,3 @@ add_executable(sudoku backtracking/sudoku.c)
 
 # Brute force
 add_executable(brute_ex5 brute-force/ex5.c)
-add_executable(brute_ex6 brute-force/ex6.c)
