@@ -19,6 +19,7 @@ add_executable(ex6_subset_sum backtracking/ex6_subset_sum.c)
 add_executable(ex7_horses_route backtracking/ex7_horses_route.c)
 add_executable(ex8_matchsticks_square backtracking/ex8_matchsticks_square.c)
 add_executable(sudoku backtracking/sudoku.c)
+add_executable(ex9_n_queens backtracking/ex9_n_queens.c)
 
 # Brute force
 add_executable(brute_ex5 brute-force/ex5.c)
