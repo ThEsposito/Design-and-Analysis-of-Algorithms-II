@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 # Array Processing
 add_executable(bitonic_arrays array_processing/bitonic_arrays.c)
+add_executable(maximum_subarray_sum array_processing/maximum_subarray_sum.c)
 
 # Recursion
 add_executable(ex1_gcd_recursive recursion/ex1_gcd_recursive.c)
